@@ -1,0 +1,8 @@
+- Build as many features as possible 
+- Tree models are robust to outliers
+- Tree models doesnt need standardization
+- Try both numbers as well as ratios based on problem
+- Try building simple categories from continuous variables if possible
+- Try including more iterations with more rounds for overfitting detector
+- Try including original features as well as dervied ones because tree based models will take care of correlations
+- Save each fold result of kfold crossvalidation into a list/dataframe and take the mean of all the folds results and use it for submission
