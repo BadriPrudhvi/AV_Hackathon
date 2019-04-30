@@ -1,5 +1,4 @@
-# AV_Hackathon
-## Analytics Vidhya - ML Hackathons
+# Analytics Vidhya - ML Hackathons
 
 ### LTFS Loan Prediction - 42nd Rank
 
