@@ -1,0 +1,8 @@
+- Ensembling is helping to boost predictions
+- Remove high cardinality features (Columns with more categories)
+- Make sure the numeric columns should be converted to categories if you want to consider them as categories
+- Go through columns with missing values and see if you can impute them in a better way rather than generic imputation techniques like mean, median, etc
+- Check and remove the categories in columns that are present only in the train and not in test
+- Use AutoML model scores from H2O and blend it with your models
+- While feature engineering, if you are grouping by categories think whether it is generalized or specific. If general we can append train and test and group the columns to build aggregate features or build them seperately for train and test.
+- H2O package has target encoder functionality which will be help ful in case of classification problems
