@@ -1,6 +1,6 @@
 # Analytics Vidhya - ML Hackathons
 
-### LTFS Loan Prediction - 42nd Rank (Top 3%)
+### LTFS Loan Prediction - 39th Rank (Top 3%)
 
 ### Food Demand Forecasting - 70th Rank (Top 8%)
 
@@ -10,3 +10,4 @@
 
 ### Club Mahindra DataOlympics - 103rd Rank (Top 10%)
 
+### HR Analytics - 62nd Rank (Top 4%)
