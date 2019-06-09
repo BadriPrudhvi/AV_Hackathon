@@ -11,3 +11,6 @@
 ### Club Mahindra DataOlympics - 103rd Rank (Top 10%)
 
 ### HR Analytics - 62nd Rank (Top 4%)
+
+### Game of Deep Learning - 57th Rank (Top 12%)
+
