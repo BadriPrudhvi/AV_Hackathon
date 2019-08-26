@@ -25,21 +25,20 @@ I have used basic feature engineering to help model understand the customer beha
 >> #### Feature Engineering
 >> - My approach is pretty straightforward which mainly revolves around feature engineering. I tried many different combination of features and found the below three feature sets to be most useful.
 >> - I haven't filtered any of the records from the dataset as the data looks clean without any missing values.
->>> 1. `Category level features`: I have built categorical based aggregated features such as min, median, mean, max of borrower credit scores, interest rate, loan to value, unpaid principal balance, etc using groups in source, financial institution, etc.
->>> 1. `Temporal features`: Temporal features almost always helps boosted trees as most of the time these models can leverage the cross-sectional correlation of the data (e.g. interaction between different features at a given observation level) but there is no way for the model to tackle the time dimension (e.g. latent interaction between two or more observations recorded at different time points). by infusing these featues explicitly - the model can also learn the cross-time correlation e.g. how transactions of customer in the past affects the nature of transaction of a customer at present. This is very important.
+>>> - `Category level features`: I have built categorical based aggregated features such as min, median, mean, max of borrower credit scores, interest rate, loan to value, unpaid principal balance, etc using groups in source, financial institution, etc.
+>>> - `Temporal features`: Temporal features almost always helps boosted trees as most of the time these models can leverage the cross-sectional correlation of the data (e.g. interaction between different features at a given observation level) but there is no way for the model to tackle the time dimension (e.g. latent interaction between two or more observations recorded at different time points). by infusing these featues explicitly - the model can also learn the cross-time correlation e.g. how transactions of customer in the past affects the nature of transaction of a customer at present. This is very important.
 >>>> - The temporal features that I considered are:
 >>>> - Account Age - days between origination_date and first_payment_date
 >>>> - No of months in loan term
 >>>> - Daily loan value
 >>>> - Montly loan value
-
->>> 1. `Ratio features`: I created a number of ratios between:
+>>> - `Ratio features`: I created a number of ratios between:
 >>>> - Ratio of unpaid_principal_bal to loan_to_value
 >>>> - Ratio of unpaid_principal_bal to debt_to_income_ratio
 >>>> - Ratio of interest_amt to number_of_borrowers
 >>>> - Ratio of credit_scores to number_of_borrowers
->>> 1. `Date features`: A lot of date based features such as origination_Year, origination_Month, origination_Day, etc.
->>> 1. `Delinquency level features`: I have built delinquency based aggregated features such as mean, total of columns m1...m12 by splitting them into time buckets. For example. Mean of m1, m2, m3 as First Quarter delinquency mean, Mean of m1...m6 as Half yearly delinquency average, etc.
+>>> - `Date features`: A lot of date based features such as origination_Year, origination_Month, origination_Day, etc.
+>>> - `Delinquency level features`: I have built delinquency based aggregated features such as mean, total of columns m1...m12 by splitting them into time buckets. For example. Mean of m1, m2, m3 as First Quarter delinquency mean, Mean of m1...m6 as Half yearly delinquency average, etc.
 >> #### Model Training & Testing: 
 >>>> - The rich set of 328 features were built and the data was split into train and test sets. 
 >>>> - As the data is highly unbalanced I set the class weights parameter in catboost as a list with [0.15, 0.85].
