@@ -43,10 +43,10 @@ I have used basic feature engineering to help model understand the customer beha
 >>>> - The rich set of 328 features were built and the data was split into train and test sets. 
 >>>> - As the data is highly unbalanced I set the class weights parameter in catboost as a list with [0.15, 0.85].
 >>>> - I have played with different ML algorithms such as random forest, CatBoost, LightGBM, XGBoost,etc. but the solution will have only Catboost implementation as it gave the best results to predict loan delinquency on m13 with an Average crossvalidated f1 score of 0.55 on the validation sets.
-> 1. ### Key Takeaways:
+> #### Key Takeaways:
 >> - Delinquency based features are the most important features determining the m13 dependent variable.
 >> - I have learnt key concept on dealing with the imbalanced data in a better way
-> 1. ### Focus Areas:
+> #### Focus Areas:
 >> - Feature engineering is the key in these type of problems.
 >> - Model building should be done keeping in mind the class imbalance.
 >> - Always trust your local CV score and take of overfitting.
