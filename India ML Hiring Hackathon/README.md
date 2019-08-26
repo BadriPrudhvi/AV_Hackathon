@@ -32,6 +32,7 @@ I have used basic feature engineering to help model understand the customer beha
 >>>> - No of months in loan term
 >>>> - Daily loan value
 >>>> - Montly loan value
+
 >>> 1. `Ratio features`: I created a number of ratios between:
 >>>> - Ratio of unpaid_principal_bal to loan_to_value
 >>>> - Ratio of unpaid_principal_bal to debt_to_income_ratio
