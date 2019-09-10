@@ -20,3 +20,5 @@
 
 ### India ML Hiring Hackathon 2019 - 74th Rank (Top 6%)
 
+### WNS Analytics Wizard 2019 - 8th Rank (Top 1%)
+
