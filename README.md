@@ -22,3 +22,5 @@
 
 ### WNS Analytics Wizard 2019 - 8th Rank (Top 1%)
 
+### WNS Analytics Wizard 2019 - 17th Rank (Top 2%)
+
