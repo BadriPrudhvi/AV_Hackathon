@@ -22,5 +22,8 @@
 
 ### WNS Analytics Wizard 2019 - 8th Rank (Top 1%)
 
-### LTFS 2 2020 - 17th Rank (Top 2%)
+### LTFS 2 2020 - 6th Rank (Top 1%)
+
+### Janata Hack 2020 - 25th Rank (Top 1%)
+
 
