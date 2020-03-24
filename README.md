@@ -24,6 +24,6 @@
 
 ### LTFS 2 2020 - 6th Rank (Top 1%)
 
-### Janata Hack 2020 - 25th Rank (Top 1%)
+### Janata Hack 2020 - 9th Rank (Top 1%)
 
 
